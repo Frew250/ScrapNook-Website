@@ -434,16 +434,14 @@ footer
   }
 }
 
+
 @media screen and (min-width: 1700px) 
 {
   p
   {
-    font-size: 2em;
+    font-size: 1.5rem;
     word-spacing: 7px;
     line-height: 1em;
-    padding:25px;
-    margin-top:0;
-    margin-bottom:0;
   }
 
   .background-image-right
@@ -461,48 +459,60 @@ footer
     max-width:1000px;
     height:100%;
   }
-
   .packages .content 
   {
-    margin-top: -600px;
-  }
-
-    h2:nth-child(1) 
-  {
-    font-size:7em;
-    margin-left:700px
-  }
-
-  h2:nth-child(2) 
-  {
-    font-size:7em;
-    margin-left:430px
+    margin-top: -525px;
   }
 
   #accordion-header 
   {
-    font-size: 2.2em;
+    font-size: 1.75rem;
     letter-spacing: 1.5px;
   }
-
   .main-info p 
   {
-  font-size:2em;
+  font-size:1.5em;
+  }
+  h2:nth-child(1) 
+  {
+    font-size:5rem;
+    margin-left:650px
+  }
+
+  h2:nth-child(2) 
+  {
+    font-size:4.75rem;
+    margin-left:430px
+  }
+
+  #logo-img 
+  {
+    width:90%;
+  }
+  .packages .content .main-info ul li 
+  {
+    padding:20px;
+  }
+  #home-list
+  {
+    font-size:1.5rem;
   }
 
   .footer-menu ul li a
   {
-    font-size: 2.6em;
+    font-size: 1.75em;
     margin-left: 4px;
   }
-
   .footer-bottom p 
   {
     font-size: 20px;
   }
-
   .footer-bottom p a 
   {
     font-size: 25px;
   }
+  #left-graphic
+{
+  clip-path: polygon(25% 0, 100% 0, 100% 25%, 0 50%, 0 0);
+}
 }
