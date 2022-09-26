@@ -23,6 +23,7 @@ p
   word-spacing: 1.3px;
   line-height: 1.3em;
   font-size: 1.25em;
+  text-align:center;
 }
 
 .background-image-right
@@ -312,6 +313,10 @@ display: block;
     content: "\a";
     white-space: pre;
     display:flex;
+  }
+  #line
+  {
+    margin-top:0;
   }
 }
 
