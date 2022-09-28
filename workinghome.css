@@ -102,6 +102,7 @@ h2:nth-child(5) {
 
 #home-list
 {
+  font-family: sans-serif;
   word-spacing: 1.3px;
   line-height: 1.3em;
   font-size: 1em;
@@ -119,6 +120,15 @@ h2:nth-child(5) {
   border-radius: 90%;
 }
 
+#line_bottom
+{
+  height:5px;
+  width:80%;
+  background-color: black ;
+  margin:auto;
+  margin-top:25px;
+  border-radius: 90%;
+}
 
 footer{
   bottom: 0;
@@ -244,6 +254,109 @@ display: block;
     margin:0;
     top: 0;
   }
+
+.wrapper
+{
+  display:flex;
+  justify-content: center;
+  /* padding:35px; */
+  margin:auto;
+}
+
+.button-53 
+{
+  background-color: #3DD1E7;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.75rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus 
+{
+  outline: 0;
+}
+
+.button-53:after 
+{
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after 
+{
+  bottom: 2px;
+  left: 2px;
+}
+
+.mailto-link 
+{
+	position: relative;
+	padding: 8px 0;
+}
+.mailto-message 
+{
+	top: 1px;
+	left: 50%;
+	margin-bottom: -5px;
+	transform: translate(-50%, -100%);
+	position: absolute;
+	display: none;
+	width: auto;
+	white-space: nowrap;
+	font-size: 12px;
+	background-color: black;
+	color: white;
+	padding: 2px 6px;
+	border-radius: 2px;
+	&:after,
+	&:before {
+		content: '';
+	}
+	&:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(0, 0, 0, 0);
+		border-top-color: #000000;
+		border-width: 4px;
+		margin-left: -4px;
+	}
+}
+
+.mailto-link:hover .mailto-message,
+.mailto-link:focus .mailto-message,
+.mailto-link:focus-within .mailto-message 
+{
+	display: block;
+}
 
 @media screen and (max-width: 768px) 
 {
